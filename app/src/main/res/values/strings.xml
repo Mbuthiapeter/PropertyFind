@@ -1,0 +1,85 @@
+<resources>
+    <string name="app_name">Propertyfind App</string>
+    <string name="all_properties">ALL</string>
+    <string name="tolet">TO LET</string>
+    <string name="for_sale">FOR SALE</string>
+    <string name="to_lease">TO LEASE</string>
+    <string name="added_services">SERVICES</string>
+    <string name="image_description">Image description</string>
+    <string name="property_type">Property type</string>
+    <string name="property_price">KSH 17 200 000</string>
+    <string name="bed_icon">&#xf236;</string>
+    <string name="shower_icon">&#xf2cc;</string>
+    <string name="outdoor">&#xf54f;</string>
+    <string name="car_icon">&#xf1b9;</string>
+    <string name="rooms">Rooms</string>
+    <string name="out_facilities">Outside Facilities</string>
+    <string name="garden">Garden</string>
+    <string name="call">CALL</string>
+    <string name="email">EMAIL</string>
+    <string name="location">Location</string>
+    <string name="tune">Tune</string>
+    <string name="sort">Sort</string>
+    <string name="cost">Price / Rent</string>
+    <string name="prop_type">Property Type</string>
+    <string name="prop_listing">Property Listing</string>
+
+    <string name="services">Other Services</string>
+
+    <string name="pref_location_label">Location</string>
+
+    <string name="pref_location_0">All</string>
+
+    <string name="pref_location_key" translatable="false">location</string>
+
+    <string name="pref_listing_key" translatable="false">listing</string>
+
+    <string name="pref_location_0_value">Any</string>
+
+    <string name="pref_listing_value">Any</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="title_location">Location</string>
+    <string name="summary_location">Select location for your Search</string>
+
+    <string name="summary_listing">Specify property type</string>
+
+    <string name="pref_rent_key" translatable="false">rent</string>
+    <string name="title_rent">Rent/Price Range</string>
+    <string name="rent_label">Rent/Price Range</string>
+    <string name="summary_rent">Specify Rent/Price Range</string>
+
+    <string name="pref_rent_0">All</string>
+    <string name="pref_rent_1">10 000 - 20 000</string>
+    <string name="pref_rent_2">20 001 - 30 000</string>
+    <string name="pref_rent_3">30 001 - 40 000</string>
+    <string name="pref_rent_4">40 001 - 50 000</string>
+    <string name="pref_rent_5">50 001 - 60 000</string>
+    <string name="pref_rent_6">60 001 - 70 000</string>
+    <string name="pref_rent_7">70 001 - 80 000</string>
+    <string name="pref_rent_8">80 001 - 90 000</string>
+    <string name="pref_rent_9">90 001 - 100 000</string>
+    <string name="pref_rent_10">Above 100 000</string>
+
+    <string name="pref_bedroom_key" translatable="false">bedrooms</string>
+    <string name="title_bedrooms">Bedrooms</string>
+    <string name="summary_bedrooms">Specify Minimum Number of Bedrooms</string>
+
+    <string name="plumbers">Plumbers</string>
+    <string name="electricians">Electricians</string>
+    <string name="painters">Painters</string>
+    <string name="carpenters">Carpenters</string>
+    <string name="movers">Movers</string>
+    <string name="security_firms">Security Firms</string>
+    <string name="waste_mgt_companies">Waste Management Companies</string>
+    <string name="cleaning_companies">Cleaning Companies</string>
+
+    <string name="rating">Client Rating:</string>
+    <string name="locality">Area:</string>
+
+    <string name="search">Search:</string>
+    <string name="clients">Clients:</string>
+    <string name="experience">Experience:</string>
+
+</resources>

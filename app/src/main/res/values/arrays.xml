@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="pref_rent_labels">
+        <item>@string/pref_rent_0</item>
+        <item>@string/pref_rent_1</item>
+        <item>@string/pref_rent_2</item>
+        <item>@string/pref_rent_3</item>
+        <item>@string/pref_rent_4</item>
+        <item>@string/pref_rent_5</item>
+        <item>@string/pref_rent_6</item>
+        <item>@string/pref_rent_7</item>
+        <item>@string/pref_rent_8</item>
+        <item>@string/pref_rent_9</item>
+        <item>@string/pref_rent_10</item>
+    </string-array>
+    <string-array name="pref_rent_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="pref_bedroom_labels">
+        <item>Any</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>Above 4</item>
+    </string-array>
+    <string-array name="pref_bedroom_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <array name="pref_location_option_labels">
+        <item>@string/pref_location_0</item>
+
+    </array>
+
+    <array name="pref_location_option_values">
+        <item>@string/pref_location_0_value</item>
+
+    </array>
+
+    <array name="pref_rent">
+        <item></item>
+    </array>
+</resources>

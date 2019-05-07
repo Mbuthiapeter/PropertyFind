@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Search Your Area">
+    <com.friki.mbuthia.propertyfindapp.utils.LocationPreferences
+        android:defaultValue="@string/pref_location_0_value"
+        android:dialogTitle="@string/title_location"
+        android:key="@string/pref_location_key"
+        android:title="@string/title_location"
+        android:summary="@string/summary_location"/>
+    </PreferenceCategory>
+</PreferenceScreen>

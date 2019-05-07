@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <!--<android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="#fff"
+        android:elevation="2dp" />-->
+
+    <!--<android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />-->
+    <ImageView
+        android:id="@+id/home_photo"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_photo_height"
+        android:contentDescription="@string/image_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toolbar" />
+
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/home_photo"
+        app:layout_constraintVertical_bias="1.0">
+
+
+        <Button
+            android:id="@+id/btnLetting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/btn_trans_background"
+            android:drawableStart="@mipmap/ic_small_logo_round"
+            android:onClick="toLet"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/tolet"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/btn_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btnSale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/btn_trans_background"
+            android:drawableStart="@mipmap/ic_small_logo_round"
+            android:onClick="forSale"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/for_sale"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/btn_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/btnLetting"
+            app:layout_constraintTop_toBottomOf="@+id/btnLetting" />
+
+        <Button
+            android:id="@+id/btnLease"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/btn_trans_background"
+            android:drawableStart="@mipmap/ic_small_logo_round"
+            android:onClick="toLease"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/to_lease"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/btn_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/btnSale"
+            app:layout_constraintTop_toBottomOf="@+id/btnSale" />
+
+
+        <Button
+            android:id="@+id/btnServices"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/btn_trans_background"
+            android:drawableStart="@mipmap/ic_small_logo_round"
+            android:onClick="services"
+            android:padding="@dimen/btn_padding"
+            android:text="@string/added_services"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:textColor="@color/btn_text_color"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@id/btnLease"
+            app:layout_constraintTop_toBottomOf="@+id/btnLease" />
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

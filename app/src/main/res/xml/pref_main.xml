@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="Tune Your Search">
+
+        <!--<ListPreference-->
+            <!--android:defaultValue="@string/pref_location_0_value"-->
+            <!--android:dialogTitle="@string/title_location"-->
+            <!--android:entries="@array/pref_location_option_labels"-->
+            <!--android:entryValues="@array/pref_location_option_values"-->
+            <!--android:key="@string/pref_location_key"-->
+            <!--android:summary="@string/summary_location"-->
+            <!--android:title="@string/title_location" />-->
+        <com.friki.mbuthia.propertyfindapp.utils.LocationPreferences
+            android:defaultValue="@string/pref_location_0_value"
+            android:dialogTitle="@string/title_location"
+            android:key="@string/pref_location_key"
+            android:title="@string/title_location"
+            android:summary="@string/summary_location"/>
+
+        <com.friki.mbuthia.propertyfindapp.utils.ListingPreferences
+            android:defaultValue="@string/pref_listing_value"
+            android:dialogTitle="@string/prop_type"
+            android:key="@string/pref_listing_key"
+            android:title="@string/prop_type"
+            android:summary="@string/summary_listing"/>
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/title_rent"
+            android:entries="@array/pref_rent_labels"
+            android:entryValues="@array/pref_rent_values"
+            android:key="@string/pref_rent_key"
+            android:summary="@string/summary_rent"
+            android:title="@string/title_rent" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/title_bedrooms"
+            android:entries="@array/pref_bedroom_labels"
+            android:entryValues="@array/pref_bedroom_values"
+            android:key="@string/pref_bedroom_key"
+            android:summary="@string/summary_bedrooms"
+            android:title="@string/title_bedrooms" />
+
+    </PreferenceCategory>
+
+
+
+</PreferenceScreen>
